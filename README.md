@@ -1,24 +1,29 @@
-# Moneyballs (quasar-moneyballs)
+# Moneyballs (Quasar + Vue 3 + Pinia)
 
-A Quasar Project
+Цей проект я створив під час проходження курсу **"Vue 3: Create a Mobile & Desktop App with Quasar 2 + Pinia"**.
+Мета — освоїти роботу з **Quasar Framework**, state management через **Pinia**, а також побудову SPA-додатку на базі Vue 3.
 
-## Install the dependencies
+## 🛠 Tech stack
+- Vue 3
+- Quasar 2
+- Pinia
+- Vue Router
+
+## 🚀 Features
+- Використання компонентів Quasar для UI
+- Управління станом через Pinia
+- Маршрутизація з Vue Router
+- Адаптивність під desktop та mobile
+
+## 📦 Project setup
 ```bash
+# Встановлення залежностей
 yarn
-# or
+# або
 npm install
-```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
+# Запуск у режимі розробки
 quasar dev
-```
 
-
-### Build the app for production
-```bash
+# Збірка для продакшн
 quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
